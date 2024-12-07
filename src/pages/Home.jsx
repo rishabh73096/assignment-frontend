@@ -1,14 +1,17 @@
 import BagsDesigns from "../components/BagsDesigns"
 import Herosection from "../components/Herosection"
 import Navbar from "../components/Navbar"
-import ProductCard from "../components/ProductCard"
+import ProductSection from "../components/ProductSection"
 
 const Home = ()=>{
     return (<>
+    <div className="h-[80vw]">
     <Navbar />
     <Herosection />
     <BagsDesigns />
-    <ProductCard />
+    <ProductSection />
+    </div>
+    
     </>)
 }
 export default Home

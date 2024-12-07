@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaInfoCircle, FaSearch, FaUser, FaShoppingCart } from 'react-icons/fa'; 
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -26,7 +27,7 @@ const Navbar = () => {
             <FaSearch className="text-xl cursor-pointer text-gray-200" />
           </div>
           <div className="relative">
-            <FaUser className="text-xl cursor-pointer text-gray-200" />
+          <Link to="/admin"> <FaUser className="text-xl cursor-pointer text-gray-200" /> </Link>  
           </div>
           <div className="relative">
             <FaShoppingCart className="text-xl cursor-pointer text-gray-200" />
