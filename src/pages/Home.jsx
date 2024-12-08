@@ -5,7 +5,7 @@ import ProductSection from "../components/ProductSection"
 
 const Home = ()=>{
     return (<>
-    <div className="h-[80vw]">
+    <div className="">
     <Navbar />
     <Herosection />
     <BagsDesigns />
