@@ -21,12 +21,16 @@ const ProductCard = ({ image, productName, price, discountPercentage }) => {
                         <p className="text-[13px] text-red-700 ">₹ {discountedPrice}</p>
                         <p className="text-[13px] text-gray-500 line-through">₹{price}</p>
                     </div>
-                    <div className="flex justify-center items-center">
+                    <div className="flex justify-center items-center gap-2">
                         <img
                             src={image}
                             alt={productName}
-                            className=" mt-2 w-[35px] h-[35px] object-cover mb-4 border-[1px] border-black"
-                        />
+                            className=" mt-2 w-[36px] h-[36px] object-cover mb-4 border-[1px] border-black"
+                        /><img
+                        src="https://img.freepik.com/free-photo/vintage-leather-briefcase-blue_155003-735.jpg?ga=GA1.1.1363914927.1727019548&semt=ais_hybrid"
+                        alt={productName}
+                        className="rounded-sm mt-2 w-[38px] h-[38px] object-cover mb-4 "
+                    />
                     </div>
 
 
